@@ -1,0 +1,141 @@
+/* CSS reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* HOME/INDEX PAGE */
+
+.banner_img_size {
+  max-height: 40rem;
+}
+
+.bg_motto {
+  background-color: rgb(235, 235, 235);
+  margin-top: 20px;
+  height: 7rem;
+}
+
+.video-bg {
+  background-color: rgb(235, 235, 235);
+  padding: 0;
+}
+.video-wrapper {
+  display: flex;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*ABOUT PAGE*/
+
+.about-description h1 {
+  font-size: 3rem;
+}
+
+.about-description-bg {
+  background-color: rgb(235, 235, 235);
+}
+.about-team {
+  width: 95%;
+  height: 80%;
+  padding-bottom: 7rem;
+  background-color: rgb(235, 235, 235);
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+.img-size {
+  max-width: 60%;
+  height: 50%;
+  position: relative;
+  left: 5rem;
+}
+
+.contained-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.gap-cards {
+  row-gap: 1rem;
+}
+/*
+
+
+
+
+
+.about-team img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}*/
+
+.collapse a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.credits {
+  font-size: 1.5rem;
+}
+
+/* ALL PAGES */
+footer {
+  height: 200px;
+}
